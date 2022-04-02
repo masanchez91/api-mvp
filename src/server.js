@@ -5,7 +5,6 @@ const helmet = require("helmet");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const HTTPServer = require("http").Server;
-
 class Server {
     app = express.application;
     DEFAULT_PORT_SERVER = config.PORT || 8080;
